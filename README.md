@@ -15,5 +15,5 @@ Please make sure you do the following while using this:
 - Edit the key inside Payment.aspx
 - Edit the keyId/keySecret in charge.aspx
 
-This release currently uses the 1.0.0 version of the .NET SDK. Please ensure that you are
+This release currently uses the 4.0.0 version of the .NET SDK. Please ensure that you are
 using the latest as the test app might lag behind.
