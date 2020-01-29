@@ -15,8 +15,8 @@ namespace RazorpaySampleApp
             input.Add("receipt", "12121");
             input.Add("payment_capture", 1);
 
-            string key = "rzp_test_jkjdcTeJ3h1C5I";
-            string secret = "n9RUof02el0Bp5S2acmW55it";
+            string key = "<Enter your Api Key here>";
+            string secret = "<Enter your Secret Key here>";
 
             RazorpayClient client = new RazorpayClient(key, secret);
 
