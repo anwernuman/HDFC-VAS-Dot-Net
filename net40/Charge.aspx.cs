@@ -13,8 +13,8 @@ namespace RazorpaySampleApp
             //Dictionary<string, object> input = new Dictionary<string, object>();
             //input.Add("amount", 100); // this amount should be same as transaction amount
 
-            string key = "rzp_test_jkjdcTeJ3h1C5I";
-            string secret = "n9RUof02el0Bp5S2acmW55it";
+            string key = "<Enter your Api Key here>";
+            string secret = "<Enter your Api secret here>";
             //string razorpay_signature["razorpay_signature"];
 
             RazorpayClient client = new RazorpayClient(key, secret);
